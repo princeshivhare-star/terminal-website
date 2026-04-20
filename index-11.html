@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>~/ alex.dev</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <div id="terminal">
+    <div id="titlebar">
+      <div class="dots">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
+      <span id="terminal-title">alex@portfolio: ~</span>
+    </div>
+
+    <div id="output"></div>
+
+    <div id="input-line">
+      <span class="prompt">alex@portfolio:~$&nbsp;</span>
+      <input type="text" id="cmd-input" autocomplete="off" spellcheck="false" autofocus />
+      <span class="cursor" id="cursor">█</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
